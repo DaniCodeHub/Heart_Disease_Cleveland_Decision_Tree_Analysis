@@ -66,3 +66,6 @@ _ = tree.plot_tree(dtc,
                    filled=True,
                    fontsize=3)
 plt.show()
+ 
+
+
