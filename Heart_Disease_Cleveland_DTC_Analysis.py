@@ -2,6 +2,12 @@ import matplotlib.pyplot as plt
 #import numpy as np
 import pandas as pd
 
+file_path = '/Users/marinamudrova/Downloads/heart-disease-cleveland-cleaned-final - heart-disease-cleveland-cleaned (1).csv'
+
+with open(file_path, 'r') as file:
+    analysis_code = file.read()
+
+print(analysis_code) 
 
 dataset = pd.read_csv('/Users/marinamudrova/Downloads/heart-disease-cleveland-cleaned-final - heart-disease-cleveland-cleaned (1).csv')
 df = pd.DataFrame(dataset)
@@ -67,5 +73,4 @@ _ = tree.plot_tree(dtc,
                    fontsize=3)
 plt.show()
  
-
-
+#:)
